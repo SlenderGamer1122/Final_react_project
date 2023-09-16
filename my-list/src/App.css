@@ -69,6 +69,31 @@ h1 {
   text-transform: capitalize;
 }
 
+.todo-button-blue{
+  padding: 16px;
+  border: none;
+  border-radius: 7px 7px 7px 7px;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgb(193, 0, 36) 0%,
+    rgb(0, 0, 0) 100%
+  );
+  color: #f59494;
+  text-transform: capitalize;
+  transition: background-color 0.3s ease;
+}
+
+.todo-button-blue:hover {
+  background: linear-gradient(
+    90deg,
+    rgb(207, 4, 126) 0%,
+    rgb(0, 0, 0) 100%
+  );
+  color: #ffffff; 
+}
+
 .todo-input.edit {
   border: 2px solid #149fff;
 }
